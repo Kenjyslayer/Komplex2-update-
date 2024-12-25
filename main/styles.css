@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6 /* Soft light gray */;
+  color: #264653 /* Dark navy blue */;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #005f73 /* Deep teal */;
+  padding: 1rem;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff /* Pure white */;
+}
+header .navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+header .navigation ul a {
+  text-decoration: none;
+  color: #e9d8a6 /* Warm beige */;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+header .navigation ul a:hover {
+  color: #ee9b00 /* Rich amber */;
+}
+header .search input {
+  padding: 0.5rem;
+  border: 1px solid #94d2bd /* Soft mint green */;
+  border-radius: 5px;
+}
